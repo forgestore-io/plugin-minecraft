@@ -1,0 +1,5 @@
+# ForgeStore Minecraft Plugin
+# Get your secret key: Store Settings -> Developers -> API Keys
+
+secret_key: ""
+poll_interval_seconds: 30

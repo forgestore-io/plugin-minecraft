@@ -1,0 +1,15 @@
+name: ForgeStore
+version: 1.0.0
+main: net.forgestore.plugin.ForgeStorePlugin
+api-version: "1.13"
+authors: [ForgeStore]
+description: Automatic purchase delivery for ForgeStore
+commands:
+  forgestore:
+    description: ForgeStore plugin commands
+    usage: /forgestore <secret|check|info|reload>
+    permission: forgestore.admin
+permissions:
+  forgestore.admin:
+    description: Access ForgeStore commands
+    default: op
